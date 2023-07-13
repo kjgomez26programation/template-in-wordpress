@@ -1,0 +1,386 @@
+/*
+Theme Name: Twenty Twenty Three Child
+Theme URI: http://ejemplo.com/
+Description: Child theme based on Twenty Twenty Three
+Author: kjgomez26programation
+Author URI: http://ejemplo.com/
+Template: twentytwentythree
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+/*---clors---*/
+:root {
+  
+    --color-black: #000000;
+    --color-dark-gray: #333333;
+    --color-medium-gray: #808080;
+    --color-dark-green: #006400;
+    --color-lime-green: #00FF00;
+  
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.txt-container{
+  max-width:1200px;
+  height: auto;
+  background-color:var(--color-black);
+}
+.txt-nav a{
+  color: white;
+}
+.txt-button {
+  display: inline-block;
+  padding: 0.1rem .8rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:var(--color-lime-green);
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Kanit', sans-serif;
+}
+
+.txt-button:hover{
+  background-color:var(--color-dark-green);
+  color: white;
+}
+.txt-button a:hover {
+  color: white;
+} 
+.txt-logo span{
+  color: var(--color-lime-green);
+  
+}
+.txt-nav :hover{
+  color: var(--color-dark-green);
+}
+
+.banner h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  padding: 50px 0px 0px 0px;
+  color: var(--color-lime-green); 
+}
+.banner  h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5px 0px 0px ;
+  color: var(--color-dark-green);
+  
+}
+.banner p {
+  font-family: sans-serif;
+  padding: 5px 0px 0px 0px;
+  color:white;
+}
+.txt-logo{
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+}
+
+.txt-img img{
+  width: 100%;
+  height: 450px;
+}
+.txt-buttom {
+  background-color:var(--color-lime-green); 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  border: none; 
+  font-size: 16px; 
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+}
+
+.txt-buttom:hover {
+  background-color: var(--color-dark-green); 
+}
+
+.brands{
+  width:100%;
+  height: 88px;
+  background-color: #00FF00;
+}
+.text-brands img{
+  width: 40%;
+  height: 60px;
+}
+.txt-services{
+  width: 100%;
+  height: 650px;
+  background-color: var(--color-black);
+}
+.txt-services h1{
+  padding: 20px 0px 0px 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+.txt-services span{
+  color: var(--color-dark-green);
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+.txt-hr {
+  color: var(--color-medium-gray);
+  opacity: 0.8; 
+}
+.txt-card{
+  background-color:var(--color-dark-gray);
+  border-radius: 25px;
+  border: none;
+ 
+}
+.card{
+  border: none;
+  border-radius: 28px;
+}
+
+
+.fa-heart-pulse {
+  color: var(--color-lime-green);
+  font-size: 45px;
+  
+}
+.custom-title{
+  color: var(--color-lime-green);
+  font-family: 'Kanit', sans-serif;
+  padding: 2px;
+  font-size: 1rem;
+}
+.custom-text{
+  color:white;
+}
+.fa-dumbbell{
+  color: var(--color-lime-green);
+  font-size: 45px;
+}
+.fa-people-group{
+  color: var(--color-lime-green);
+  font-size: 45px;
+}
+.btn{
+  color: white;
+  background-color: transparent;
+  border: 1px solid var(--color-lime-green);
+  padding: 0.1rem .8rem;
+  font-weight: bold;
+  
+}
+.btn:hover{
+  background-color:var(--color-lime-green);
+  color: white;
+  border: 1px solid var(--color-black);
+  padding: 0.1rem .8rem;
+  font-weight: bold;
+}
+.txt-services{
+  background-color: var(--color-black);
+  width: 100%;
+  height: 650px;
+}
+
+.txt-Faq{
+  width: 100%;
+  height: 550px;
+  background-color: var(--color-black);
+}
+.txt-Faq{
+  padding: 20px 0px 0px 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+.txt-Faq span{
+  color: var(--color-dark-green);
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+.txt-img-faq img{
+  width: 80%;
+  height: 400px;
+}
+.txt-accodion {
+  padding-top: 90px; 
+}
+.accordion-item{
+  background-color:var(--color-dark-green);
+  box-shadow:2px 2px 8px  var(--color-black);
+  border: none;
+}
+.accordion-body{
+  background: var(--color-black);
+  color: white;
+}
+.accordion-button{
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.accordion-button:focus{
+  box-shadow: none;
+  border: none;
+}
+.accordion-button:not(.collapsed){
+  background-color: var(--color-lime-green);
+  box-shadow: none;
+  color: white;
+}
+.accordion-button:after{
+  color:var(--color-black);
+  color: white;
+}
+
+.txt-newsletter{
+  width: 100%;
+  height: 400px;
+  background-color: var(--color-black);
+}
+.txt-newsletter h1{
+  padding: 20px 0px 0px 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+.txt-newsletter span{
+  color: var(--color-dark-green);
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+}
+
+.txt-new-I h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  padding: 10px 0px 0px 0px;
+  color: var(--color-lime-green); 
+}
+.txt-new-I h1{
+  font-family: 'Kanit', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5px 0px 0px ;
+  color: white;
+}
+.txt-new{
+  color: white;  
+}
+.form-control{
+  background-color: var(--color-black);
+  border: 1px solid var(--color-dark-green);
+  color: white;
+  box-shadow:var(--color-black);
+}
+.form-control:hover{
+  background-color: #00FF00;
+  box-shadow: var(--color-black);
+
+}
+.contact{
+  width: 100%;
+  height: 95px;
+  background-color: var(--color-lime-green);
+  padding: 12px;
+}
+.icon i.fas.fa-map-marker-alt, .fa-envelope, .fa-phone{
+  color: var(--color-dark-green);
+  font-size: 1rem;
+}
+.icon{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1,8rem;
+  color: var(--color-black);
+}
+.txt-footer a{
+  font-size: 1.2rem;
+}
+.txt-footer a:hover{
+  color: var(--color-dark-green);
+}
+.accordion-button{
+  font-family: 'Kanit', sans-serif;
+}
+.form-control::placeholder {
+  color:var(--color-dark-green);
+
+}
+
+/*------------------------------------------*/
+
+@media screen and (min-width:915px){
+  .brands{
+    width: 100%;
+    height:auto;
+  }
+  .text-brands img{
+    width: 40%;
+    height: 62px;
+  }
+  .txt-services {
+    width: 100%;
+    height: auto;
+  }
+  .txt-Faq{
+    width: 100%;
+    height: auto;
+  }
+  .txt-new-I h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding: 5px 0px 0px ;
+    color: white;
+  }
+} 
+@media screen and (min-width:312px){
+  .brands{
+    width: 100%;
+    height:auto;
+  }
+  .text-brands img{
+    width: 40%;
+    height: 62px;
+  }
+  .txt-services {
+    width: 100%;
+    height: auto;
+  }
+  .txt-Faq{
+    width: 100%;
+    height: auto;
+  }
+
+  .txt-new-I h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding: 5px 0px 0px ;
+    color: white;
+  }
+  .contact{
+    width: 100%;
+    height: auto;
+  }
+  .txt-newsletter{
+    padding: 4%;
+    width: 100%;
+    height: auto;
+  }
+  .txt-new-I h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5px 0px 0px ;
+    color: white;
+  }
+} 
+
